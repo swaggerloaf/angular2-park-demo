@@ -12,7 +12,7 @@ import { PERSONS } from './shared/mock-persons';
 })
 export class RootAppComponent { 
   // properties
-  title: string = 'An Angular 2 App that can grow.';
+  title: string = 'Due to open soon.';
 
   // get user and display
 
