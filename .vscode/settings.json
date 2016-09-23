@@ -7,5 +7,5 @@
        "**/app/**/*.js": true
     },
     "files.autoSave": "afterDelay",
-    "editor.fontSize": 18
+    "editor.fontSize": 22
 }

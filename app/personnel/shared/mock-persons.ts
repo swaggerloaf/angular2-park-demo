@@ -1,6 +1,6 @@
-import { Person } from './person.model';
+import { Worker } from './worker.model';
 
-export const PERSONS: Person[] = [
+export const WORKERS: Worker[] = [
   {id: 1, firstName: 'Henry', lastName: 'Wu'},
   {id: 2, firstName: 'Ellie', lastName: 'Sattler'},
   {id: 3, firstName: 'Ian', lastName: 'Malcolm'},
