@@ -10,8 +10,23 @@ import { Component } from '@angular/core';
 })
 export class RootAppComponent { 
   // properties
-  title: string = 'An Angular 2 App that can grow.';
+  
+  TITLES: string[] = [
+    "It's a UNIX system! I know this!",
+    "Hold on to your butts.",
+    "All major theme parks have delays.",
+    "Remind me to thank John for a lovely weekend.",
+    "Then they're expensive, put 'em back."
+  ]
 
-  // methods
+    // methods
+  randomIntFromInterval = function(min: number,max: number)
+  {
+      return Math.floor(Math.random()*(max-min+1)+min);
+  } 
+
+  title: string = this.TITLES[this.randomIntFromInterval(0, 4)];
+
+
 
 }
